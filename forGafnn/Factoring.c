@@ -32,7 +32,7 @@ void factors(long num)
         if (isPrime(i) && num % i == 0)
         {
             num /= i;
-            printf("%d ", i);
+            printf("%d  ", i);
             i = 2 - 1; // reset i = 2;
         }
     }
