@@ -31,6 +31,7 @@ int main()
 {
     long x,n;
     printf(" *** Power ***");
+    printf("Enter 2 Positive Integers: ");
     scanf(" %ld",&x);
     scanf(" %ld",&n);
     printResult(x,n);
