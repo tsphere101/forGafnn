@@ -1,16 +1,8 @@
 #include <stdio.h>
 
-int main()
+void printTheThingOut(int num)
 {
-
-
-    int input;
-    scanf(" %d", &input);
-    if(input == 0)
-    {
-        printf("This is impossiple!\n")
-    }
-
+    int input = num;
     for(int row = input; row > 0; row--)
     {
         for(int k = 0 ; k < row; k++)
@@ -24,6 +16,18 @@ int main()
         }
         printf("\n");
     }
+}
+
+int main()
+{
+    int input;
+    scanf(" %d", &input);
+    if(input <= 0)
+    {
+        printf("This is impossiple!\n");
+    }
+
+    printTheThingOut(input);
 
     return 0;
 }
