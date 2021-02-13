@@ -30,7 +30,7 @@ void printResult(int x , int n)
 int main()
 {
     long x,n;
-    printf("Enter 2 Positive Integers: ");
+    printf(" *** Power ***");
     scanf(" %ld",&x);
     scanf(" %ld",&n);
     printResult(x,n);
