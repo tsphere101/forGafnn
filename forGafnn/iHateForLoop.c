@@ -20,6 +20,7 @@ void printTheThingOut(int num)
 
 int main()
 {
+    printf("Enter size of rectangle : ");
     int input;
     scanf(" %d", &input);
     if(input <= 0)
