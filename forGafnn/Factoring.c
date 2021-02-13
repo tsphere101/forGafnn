@@ -1,14 +1,13 @@
 #include <stdio.h>
-#include <stdbool.h>
 
-bool isPrime(long num)
+int isPrime(long num)
 {
     for (long i = 2; i <= num / 2; i++)
     {
         if (num % i == 0)
-            return false;
+            return 0;
     }
-    return true;
+    return 1;
 }
 
 void factors(long num)
