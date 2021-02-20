@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-void printTriangle(long);
+void run();
+void printTriagnle(long num);
 
 void run()
 {
@@ -37,11 +37,6 @@ void printTriagnle(long num)
     }
 
 }
-
-
-
-
-
 
 
 
