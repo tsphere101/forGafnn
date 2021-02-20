@@ -13,8 +13,10 @@ void run()
 void printTriagnle(long num)
 {
     /*First Half*/
-    for(int i = 0 ; i < num/2 ; i++)
+    int i = 0;
+    for(i = 0 ; i < num/2 ; i++)
     {
+        printf("%d",i);
         /* in line print*/
         for(int k = 0 ; k <= i ; k++)
         {
@@ -25,8 +27,9 @@ void printTriagnle(long num)
     }
 
     /*Second Half */
-    for(int i = (num/2) +1; i>0; i--) 
+    for(i = (num/2)+num%2 ; i>0; i--) 
     {
+        printf("%d",i);
         /* in line print */
         for(int k = 1; k <= i ; k++)
         {
